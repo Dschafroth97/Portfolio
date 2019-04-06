@@ -16,6 +16,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,7 +27,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/" alt="">Donovan Schafroth</a>
+            <a class="navbar" href="#"><img src="img/" alt="">
+                <h2>Donovan Schafroth</h2>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
 
@@ -32,16 +37,24 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link active">
+                            <h3>Home</h3>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
+                        <a href="#" class="nav-link">
+                            <h3>About</h3>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Portfolio</a>
+                        <a href="#" class="nav-link">
+                            <h3>Portfolio</h3>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Connect</a>
+                        <a href="#" class="nav-link">
+                            <h3>Connect</h3>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -52,7 +65,7 @@
     <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-interval="10000">
-                <img src="img/background.png" class="d-block w-100" alt="...">
+                <img id="img1" src="img/background1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" data-interval="2000">
                 <img src="img/background2.png" class="d-block w-100" alt="...">
@@ -74,22 +87,22 @@
     <!-- About Me -->
     <div class="jumbotron jumbotron-fluid bg-grey">
         <div class="container text-center">
-            <h1 class="display-3">About Me</h1>
+            <h1 style="font-family: 'Abril Fatface', sans-serif;" class="display-3">About Me</h1>
         </div>
     </div>
 
     <!-- Intro -->
     <div class="row text-center">
-        <div class="col-12">
-            <h2>Hello, my name is Donovan Schafroth,</h2>
-            <p>I am an aspiring web developer, creator and content developer!</p>
+        <div class="col-12" id="aboutText">
+            <h2>Hello, my name is Donovan Schafroth,</h2><br>
+            <p>I am an aspiring web developer, creator and adventurer!</p>
             <hr>
             <p>A few of my hobbies include Gaming, Rockclimbing, Reading, and of course tinkering with the WWW!</p>
         </div>
     </div>
     <!-- Portfolio -->
     <div class="container-fluid">
-        <div class="col-sm-12">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="projectDisplay">
             <div class="card bg-dark text-white">
                 <img src="img/strawHat.webp" class="card-img" alt="One Piece">
                 <a href="https://dschafroth97.github.io/Trivia/">
@@ -100,7 +113,7 @@
             </div>
         </div>
 
-        <div class="col-sm-12">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="projectDisplay">
             <div class="card bg-dark text-white">
                 <img src="img/giphy.gif" class="card-img" alt="Dimensional Box">
                 <a href="https://dschafroth97.github.io/Giftastic/">
@@ -111,7 +124,7 @@
             </div>
         </div>
 
-        <div class="col-sm-12">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="greenDisplay">
             <div class="card bg-dark text-white">
                 <img src="img/greenCrystal.jpg" class="card-img" alt="Green Crystal">
                 <a href="https://dschafroth97.github.io/CrystalCollector/">
@@ -120,8 +133,13 @@
                     </div>
                 </a>
             </div>
-        </div>  
+        </div>
     </div>
+
+    <!-- Contact -->
+    <div class="row">
+        <h1>Hello, World!</h1>
+</div>
 </body>
 
 </html>
