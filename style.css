@@ -12,7 +12,12 @@ h2 {
     color: #666
 }
 
-
+#contactClear {
+    
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /*---Media Queries --*/
 
