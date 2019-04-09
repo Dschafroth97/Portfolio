@@ -241,6 +241,10 @@ hr.socket {
   padding-bottom: 1.2rem;
 }
 
+.caption a {
+  visibility: hidden;
+}
+
 .btn-lg {
   padding: .5rem 1rem;
   font-size: 1rem;
@@ -253,5 +257,9 @@ hr.socket {
   max-width: 50%;
   display: block;
   margin: 0 auto;
+}
+
+.footer {
+  margin-bottom: 1rem;
 }
 }
