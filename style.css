@@ -49,7 +49,7 @@ body {
 /* Landing Page */
 
 .home-inner {
-  background-image: url(img/background4.jpeg)
+  background-image: url(img/background5.jpeg)
 }
 
 .caption {
@@ -83,7 +83,7 @@ body {
   font-size: 1.1rem;
 }
 
-/* Course Section */
+/* About Me Section */
 .narrow {
   width: 75%;
   margin: 1.5rem auto;
@@ -112,7 +112,7 @@ body {
   color: white;
 }
 
-/* Feature Section */
+/* Projects Section */
 .jumbotron {
   margin-bottom: 0;
   padding: 2rem 0 3.5rem;
@@ -132,18 +132,24 @@ h3.heading {
   margin: 0 auto 2rem;
 }
 
-.feature svg.svg-inline--fa {
+.projects svg.svg-inline--fa {
   color: #ed8e00;
 }
 
-.feature h3 {
+.projects h3 {
   font-size: 1.3rem;
   text-transform: uppercase;
   padding-bottom: .4rem;
+  padding-top: 1rem;
+  font-weight: 700;
 }
 
-.feature p {
+.projects p {
   font-size: 1.1rem;
+}
+
+.projects img {
+  width: 100%;
 }
 
 /* Resource Section */
@@ -157,6 +163,10 @@ h3.heading {
   background-color: rgba (0, 0, 0, 0.75);
   color: white;
   padding: 7rem 2rem;
+}
+
+.fixed-background {
+  height: 46rem;
 }
 
 .fixed-background h3 {
@@ -192,7 +202,6 @@ footer {
   background-color: #40474e;
   color: white;
   padding: 2rem 0 2rem;
-  margin-top: 1rem;
 }
 
 footer a {
@@ -200,11 +209,15 @@ footer a {
 }
 
 footer .svg-inline--fa {
-  font-size: 1.6rem;
+  font-size: 2.5rem;
   margin: 1.2rem .5rem 0 0;
 }
 
 footer .svg-inline--fa:hover {
+  color: #ed8e00;
+}
+
+footer a:hover {
   color: #ed8e00;
 }
 
