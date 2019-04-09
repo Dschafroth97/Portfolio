@@ -2,4 +2,4 @@
 
 Here is my Coding Portfolio! 
 
-https://github.com/Dschafroth97/Portfolio
+https://dschafroth97.github.io/Portfolio/
